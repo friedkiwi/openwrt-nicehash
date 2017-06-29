@@ -1,0 +1,3 @@
+config 'interface' 'lan'
+	option 'proto' 'dhcp'
+	option 'ifname' 'eth0'
