@@ -1,0 +1,20 @@
+#!/usr/bin/python
+
+
+cmdline = ""
+
+try:
+	cmdline = open("/proc/cmdline", "r").read()
+except:
+	cmdline = ""
+
+params = cmdline.split(" ")
+
+addr = "1NF5m7MgPKRgLaeqZhGmPh7ePmpDHAshWd"
+
+for param in params:
+    if "BTCADDR" in param:
+        addr_param = param.split("=")
+        addr = addr_param[1]
+
+print addr.replace("\n", "")
