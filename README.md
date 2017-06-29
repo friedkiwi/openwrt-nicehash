@@ -12,4 +12,4 @@ to rebuild the nvidia modules if your GCC version doesn't match.
 
 ## Testing
 
-`qemu-system-x86_64 -m 1024  -kernel bin/x86-glibc/openwrt-cuda-0.1-x86-64-ramfs.bzImage  -redir tcp:2222::22 -redir tcp:8080::80`
+`qemu-system-x86_64 -m 1024  -kernel release/openwrt-cuda-0.1-x86-64-ramfs.bzImage  -redir tcp:2222::22 -redir tcp:8080::80 -append 'BTCADDR=18YBTqPvetdQrAn66x512Zqfd6qRFArcKF'`
