@@ -1,0 +1,838 @@
+Source-Makefile: feeds/telephony/net/freeswitch-stable-sounds/Makefile
+Package: freeswitch-stable-sounds-en-ca-june-8000
+Submenu: Telephony
+Version: 1.0.51-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: June
+Locale: en-CA
+Frequency: 8 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-en-ca-june-16000
+Submenu: Telephony
+Version: 1.0.51-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: June
+Locale: en-CA
+Frequency: 16 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-en-ca-june-32000
+Submenu: Telephony
+Version: 1.0.51-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: June
+Locale: en-CA
+Frequency: 32 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-en-ca-june-48000
+Submenu: Telephony
+Version: 1.0.51-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: June
+Locale: en-CA
+Frequency: 48 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-en-us-callie-8000
+Submenu: Telephony
+Version: 1.0.51-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: Callie
+Locale: en-US
+Frequency: 8 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-en-us-callie-16000
+Submenu: Telephony
+Version: 1.0.51-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: Callie
+Locale: en-US
+Frequency: 16 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-en-us-callie-32000
+Submenu: Telephony
+Version: 1.0.51-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: Callie
+Locale: en-US
+Frequency: 32 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-en-us-callie-48000
+Submenu: Telephony
+Version: 1.0.51-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: Callie
+Locale: en-US
+Frequency: 48 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-fr-ca-june-8000
+Submenu: Telephony
+Version: 1.0.51-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: June
+Locale: fr-CA
+Frequency: 8 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-fr-ca-june-16000
+Submenu: Telephony
+Version: 1.0.51-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: June
+Locale: fr-CA
+Frequency: 16 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-fr-ca-june-32000
+Submenu: Telephony
+Version: 1.0.51-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: June
+Locale: fr-CA
+Frequency: 32 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-fr-ca-june-48000
+Submenu: Telephony
+Version: 1.0.51-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: June
+Locale: fr-CA
+Frequency: 48 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-music-8000
+Submenu: Telephony
+Version: 1.0.52-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Music on Hold
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Music on Hold
+Speaker: 
+Locale: 
+Frequency: 8 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-music-16000
+Submenu: Telephony
+Version: 1.0.52-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Music on Hold
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Music on Hold
+Speaker: 
+Locale: 
+Frequency: 16 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-music-32000
+Submenu: Telephony
+Version: 1.0.52-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Music on Hold
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Music on Hold
+Speaker: 
+Locale: 
+Frequency: 32 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-music-48000
+Submenu: Telephony
+Version: 1.0.52-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Music on Hold
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Music on Hold
+Speaker: 
+Locale: 
+Frequency: 48 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-pl-pl-espeak-8000
+Submenu: Telephony
+Version: 0.1.0-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: espeak
+Locale: pl-PL
+Frequency: 8 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-pl-pl-espeak-16000
+Submenu: Telephony
+Version: 0.1.0-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: espeak
+Locale: pl-PL
+Frequency: 16 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-pt-BR-karina-8000
+Submenu: Telephony
+Version: 1.0.51-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: Karina
+Locale: pr-BR
+Frequency: 8 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-pt-BR-karina-16000
+Submenu: Telephony
+Version: 1.0.51-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: Karina
+Locale: pr-BR
+Frequency: 16 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-pt-BR-karina-32000
+Submenu: Telephony
+Version: 1.0.51-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: Karina
+Locale: pr-BR
+Frequency: 32 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-pt-BR-karina-48000
+Submenu: Telephony
+Version: 1.0.51-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: Karina
+Locale: pr-BR
+Frequency: 48 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-ru-RU-elena-8000
+Submenu: Telephony
+Version: 1.0.51-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: Elena
+Locale: ru-RU
+Frequency: 8 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-ru-RU-elena-16000
+Submenu: Telephony
+Version: 1.0.51-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: Elena
+Locale: ru-RU
+Frequency: 16 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-ru-RU-elena-32000
+Submenu: Telephony
+Version: 1.0.51-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: Elena
+Locale: ru-RU
+Frequency: 32 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-ru-RU-elena-48000
+Submenu: Telephony
+Version: 1.0.51-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: Elena
+Locale: ru-RU
+Frequency: 48 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-sv-se-jakob-8000
+Submenu: Telephony
+Version: 1.0.50-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: Jakob
+Locale: sv-SE
+Frequency: 8 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-sv-se-jakob-16000
+Submenu: Telephony
+Version: 1.0.50-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: Jakob
+Locale: sv-SE
+Frequency: 16 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-sv-se-jakob-32000
+Submenu: Telephony
+Version: 1.0.50-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: Jakob
+Locale: sv-SE
+Frequency: 32 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-sv-se-jakob-48000
+Submenu: Telephony
+Version: 1.0.50-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: Jakob
+Locale: sv-SE
+Frequency: 48 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-zh-cn-sinmei-8000
+Submenu: Telephony
+Version: 1.0.51-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: Sinmei
+Locale: zh-CN
+Frequency: 8 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-zh-cn-sinmei-16000
+Submenu: Telephony
+Version: 1.0.51-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: Sinmei
+Locale: zh-CN
+Frequency: 16 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-zh-cn-sinmei-32000
+Submenu: Telephony
+Version: 1.0.51-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: Sinmei
+Locale: zh-CN
+Frequency: 32 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-zh-cn-sinmei-48000
+Submenu: Telephony
+Version: 1.0.51-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: Sinmei
+Locale: zh-CN
+Frequency: 48 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-zh-hk-sinmei-8000
+Submenu: Telephony
+Version: 1.0.51-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: Sinmei
+Locale: zh-HK
+Frequency: 8 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-zh-hk-sinmei-16000
+Submenu: Telephony
+Version: 1.0.51-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: Sinmei
+Locale: zh-HK
+Frequency: 16 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-zh-hk-sinmei-32000
+Submenu: Telephony
+Version: 1.0.51-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: Sinmei
+Locale: zh-HK
+Frequency: 32 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+Package: freeswitch-stable-sounds-zh-hk-sinmei-48000
+Submenu: Telephony
+Version: 1.0.51-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Sound prompts
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Source: 
+License: MPL-1.1
+Type: ipkg
+Description: Sound prompts
+Speaker: Sinmei
+Locale: zh-HK
+Frequency: 48 kHz
+https://www.freeswitch.org
+Sebastian Kemper <sebastian_ml@gmx.net>
+@@
+
+

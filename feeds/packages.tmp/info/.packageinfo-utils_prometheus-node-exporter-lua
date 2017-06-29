@@ -1,0 +1,22 @@
+Source-Makefile: feeds/packages/utils/prometheus-node-exporter-lua/Makefile
+Package: prometheus-node-exporter-lua
+Version: 2017.05.07-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +luasocket
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Title: Provides system statistics as Prometheus scraping endpoint
+Maintainer: Christian Simon <simon@swine.de>
+Source: 
+License: Apache-2.0
+Type: ipkg
+Description:   Provides node metrics as Prometheus scraping endpoint.
+
+  This service is a lightweight rewrite in LUA of the offical Prometheus node_exporter.
+https://github.com/rbo/openwrt_exporter
+Christian Simon <simon@swine.de>
+@@
+
+

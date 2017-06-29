@@ -1,0 +1,64 @@
+Source-Makefile: feeds/packages/net/netopeer2/Makefile
+Package: netopeer2-server
+Menu: 1
+Version: 0.3.65
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +libyang +libnetconf2 +netopeer2-keystored +libsysrepo +sysrepocfg +sysrepoctl +sysrepo +SSH_SERVER:openssh-server
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Title: NETCONF server
+Maintainer: Mislav Novakovic <mislav.novakovic@sartura.hr>
+Source: netopeer2-c204b59f9c2bb7e63eb907f33c44adbf208295ee.tar.bz2
+License: BSD-3-Clause
+Type: ipkg
+Description: NETCONF server
+https://github.com/CESNET/Netopeer2.git
+Mislav Novakovic <mislav.novakovic@sartura.hr>
+@@
+Config:
+  source "feeds/packages/net/netopeer2/Config_server.in"
+@@
+
+Package: netopeer2-cli
+Version: 0.3.65
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +libyang +libnetconf2 +libopenssl
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Title: Netopeer2 cli tool
+Maintainer: Mislav Novakovic <mislav.novakovic@sartura.hr>
+Source: netopeer2-c204b59f9c2bb7e63eb907f33c44adbf208295ee.tar.bz2
+License: BSD-3-Clause
+Type: ipkg
+Description: Netopeer2 cli tool
+https://github.com/CESNET/Netopeer2.git
+Mislav Novakovic <mislav.novakovic@sartura.hr>
+@@
+
+Package: netopeer2-keystored
+Menu: 1
+Version: 0.3.65
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libopenssl +libsysrepo +sysrepo +sysrepocfg +sysrepoctl +SSH_KEYS:openssh-keygen +SSH_KEYS:openssl-util
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Title: Netopeer2 key store management
+Maintainer: Mislav Novakovic <mislav.novakovic@sartura.hr>
+Source: netopeer2-c204b59f9c2bb7e63eb907f33c44adbf208295ee.tar.bz2
+License: BSD-3-Clause
+Type: ipkg
+Description: Netopeer2 key store management
+https://github.com/CESNET/Netopeer2.git
+Mislav Novakovic <mislav.novakovic@sartura.hr>
+@@
+Config:
+  source "feeds/packages/net/netopeer2/Config_keystored.in"
+@@
+
+

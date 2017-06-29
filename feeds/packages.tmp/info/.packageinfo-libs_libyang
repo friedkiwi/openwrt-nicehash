@@ -1,0 +1,39 @@
+Source-Makefile: feeds/packages/libs/libyang/Makefile
+Package: libyang
+Version: 0.12.174-7e811613b335afc8e1b2c0ee77e7b3f371bc9175
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpcre
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: libs
+Category: Libraries
+Title: YANG data modeling language library
+Maintainer: Mislav Novakovic <mislav.novakovic@sartura.hr>
+Source: libyang-0.12.174-7e811613b335afc8e1b2c0ee77e7b3f371bc9175.tar.gz
+License: GPL-2.0+
+Type: ipkg
+Description:  libyang is YANG data modelling language parser and toolkit written (and providing API) in C.
+ The library is used e.g. in libnetconf2, Netopeer2 or sysrepo projects.
+https://github.com/CESNET/libyang.git
+Mislav Novakovic <mislav.novakovic@sartura.hr>
+@@
+
+Package: yanglint
+Version: 0.12.174-7e811613b335afc8e1b2c0ee77e7b3f371bc9175
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libyang
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Title: YANG data modeling language utility
+Maintainer: Mislav Novakovic <mislav.novakovic@sartura.hr>
+Source: libyang-0.12.174-7e811613b335afc8e1b2c0ee77e7b3f371bc9175.tar.gz
+License: GPL-2.0+
+Type: ipkg
+Description: YANG data modeling language utility
+https://github.com/CESNET/libyang.git
+Mislav Novakovic <mislav.novakovic@sartura.hr>
+@@
+
+

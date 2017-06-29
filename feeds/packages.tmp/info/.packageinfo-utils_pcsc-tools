@@ -1,0 +1,22 @@
+Source-Makefile: feeds/packages/utils/pcsc-tools/Makefile
+Package: pcsc-tools
+Version: 1.5.2-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpcsclite
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Title: pcsc-tools
+Maintainer: Daniel Engberg <daniel.engberg.lists@pyret.net>
+Source: pcsc-tools-1.5.2.tar.bz2
+License: GPL-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description:   Tools that are used to test a PC/SC driver, card or reader.
+  Only includes pcsc_scan without ATR analysis for now.
+http://ludovic.rousseau.free.fr/softwares/pcsc-tools/
+Daniel Engberg <daniel.engberg.lists@pyret.net>
+@@
+
+

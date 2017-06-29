@@ -1,0 +1,59 @@
+Source-Makefile: feeds/packages/libs/libiio/Makefile
+Package: libiio
+Version: 0.10-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libusb-1.0 +libxml2
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: libs
+Category: Libraries
+Title: Library for interfacing with Linux IIO devices
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Source: libiio-0.10.tar.gz
+License: LGPL-2.1
+LicenseFiles: COPYING.txt
+Type: ipkg
+Description:   Daemon to access IIO devices via network.
+https://github.com/analogdevicesinc/libiio
+Michael Heimpold <mhei@heimpold.de>
+@@
+
+Package: iiod
+Version: 0.10-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libiio
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Linux IIO daemon
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Source: libiio-0.10.tar.gz
+License: LGPL-2.1
+LicenseFiles: COPYING.txt
+Type: ipkg
+Description: Linux IIO daemon
+https://github.com/analogdevicesinc/libiio
+Michael Heimpold <mhei@heimpold.de>
+@@
+
+Package: iio-utils
+Version: 0.10-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libiio
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Title: Linux IIO tools
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Source: libiio-0.10.tar.gz
+License: LGPL-2.1
+LicenseFiles: COPYING.txt
+Type: ipkg
+Description:   Command tools for IIO devices.
+https://github.com/analogdevicesinc/libiio
+Michael Heimpold <mhei@heimpold.de>
+@@
+
+

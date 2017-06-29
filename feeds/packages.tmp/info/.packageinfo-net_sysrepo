@@ -1,0 +1,74 @@
+Source-Makefile: feeds/packages/net/sysrepo/Makefile
+Package: libsysrepo
+Version: 0.6.0-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libyang +libprotobuf-c +libev +libavl
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Title: YANG-based data store library
+Maintainer: Mislav Novakovic <mislav.novakovic@sartura.hr>
+Source: sysrepo-e4a5705a4c5293ba121048c71899b98243d99edf.tar.bz2
+License: ASL-2.0
+Type: ipkg
+Description: YANG-based data store library
+https://github.com/sysrepo/sysrepo.git
+Mislav Novakovic <mislav.novakovic@sartura.hr>
+@@
+
+Package: sysrepo
+Version: 0.6.0-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libsysrepo
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Title: YANG-based data store daemon and plugin
+Maintainer: Mislav Novakovic <mislav.novakovic@sartura.hr>
+Source: sysrepo-e4a5705a4c5293ba121048c71899b98243d99edf.tar.bz2
+License: ASL-2.0
+Type: ipkg
+Description: Sysrepo is an YANG-based configuration and operational state data store for Unix/Linux applications.
+https://github.com/sysrepo/sysrepo.git
+Mislav Novakovic <mislav.novakovic@sartura.hr>
+@@
+
+Package: sysrepoctl
+Version: 0.6.0-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libsysrepo
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Title: sysrepo cli tool
+Maintainer: Mislav Novakovic <mislav.novakovic@sartura.hr>
+Source: sysrepo-e4a5705a4c5293ba121048c71899b98243d99edf.tar.bz2
+License: ASL-2.0
+Type: ipkg
+Description: sysrepo cli tool
+https://github.com/sysrepo/sysrepo.git
+Mislav Novakovic <mislav.novakovic@sartura.hr>
+@@
+
+Package: sysrepocfg
+Version: 0.6.0-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libsysrepo
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Title: sysrepo configuration tool
+Maintainer: Mislav Novakovic <mislav.novakovic@sartura.hr>
+Source: sysrepo-e4a5705a4c5293ba121048c71899b98243d99edf.tar.bz2
+License: ASL-2.0
+Type: ipkg
+Description: sysrepo configuration tool
+https://github.com/sysrepo/sysrepo.git
+Mislav Novakovic <mislav.novakovic@sartura.hr>
+@@
+
+

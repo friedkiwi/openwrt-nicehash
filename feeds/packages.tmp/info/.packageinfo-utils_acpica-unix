@@ -1,0 +1,22 @@
+Source-Makefile: feeds/packages/utils/acpica-unix/Makefile
+Package: acpica-unix
+Version: 20170531-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Title: ACPI utilities for UNIX
+Maintainer: Philip Prindeville <philipp@redfish-solutions.com>
+Source: acpica-unix-20170531.tar.gz
+License: GPL-2.0
+Type: ipkg
+Description: 	Open Source utilities for ACPI including the ACPICA Machine Language
+	(AML) interpreter, a simulator, test suites, and a compiler to
+	translate ACPI Source Language (ASL) into AML.
+https://acpica.org/
+Philip Prindeville <philipp@redfish-solutions.com>
+@@
+
+
