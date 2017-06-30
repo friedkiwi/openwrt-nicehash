@@ -3,7 +3,7 @@
 This is an openwrt distribution optimised for nicehash mining on CUDA-based platforms. It features a web interface (unfinished) 
 and is distributed as a kernel/initramfs combination which can easily be booted over PXE without any disks.
 
-_ Warning: this code is pre-alpha and might not even be working _
+_ Warning: the mining code in this miner is currently stubbed. It will not currently mine any coins _
 
 ## Build instructions
 
