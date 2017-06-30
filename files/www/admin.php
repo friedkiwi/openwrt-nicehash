@@ -1,5 +1,5 @@
 <?php
-    require_once "openwrt-nicehash.lib.php";
+require_once "openwrt-nicehash.lib.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -33,10 +33,15 @@ include "navbar.php";
 
 <div class="container">
 
-    <div class="starter-template">
-        <h1>Status</h1>
-        <p class="lead">Account: <a target="_blank" href="https://new.nicehash.com/miner/<?php echo get_payout_address(); ?>"><?php echo get_payout_address(); ?></a></p>
-        <p class="lead">Miner name: <?php echo get_miner_name(); ?> </p>
+    <div>
+        <h1>Administration</h1>
+
+        <p>
+            <ol>
+            <li><a href="exec.php?cmd=reboot">Reboot</a></li>
+            <li><a href="#">Restart mining processes</a></li>
+            </ol>
+        </p>
     </div>
 
 </div><!-- /.container -->
