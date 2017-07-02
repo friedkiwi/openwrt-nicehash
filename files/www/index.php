@@ -33,10 +33,11 @@ include "navbar.php";
 
 <div class="container">
 
-    <div class="starter-template">
+    <div class="central-div">
         <h1>Status</h1>
         <p class="lead">Account: <a target="_blank" href="https://new.nicehash.com/miner/<?php echo get_payout_address(); ?>"><?php echo get_payout_address(); ?></a></p>
         <p class="lead">Miner name: <?php echo get_miner_name(); ?> </p>
+        <?php write_status(); ?>
     </div>
 
 </div><!-- /.container -->
