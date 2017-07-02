@@ -1,0 +1,7 @@
+#!/usr/bin/python
+
+from uuid import getnode as get_mac
+
+mac = "%6X" % get_mac()
+
+print "m%s" % (mac[-6:])

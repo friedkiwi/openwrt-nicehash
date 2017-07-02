@@ -1,0 +1,5 @@
+#!/bin/sh
+
+#echo "status" | nc 127.0.0.1 8888
+
+echo '{"method":"status","result":{"interval_seconds":15,"speed_ips":120.267,"speed_sps":220.667,"accepted_per_minute":4,"rejected_per_minute":0},"error":null}'
