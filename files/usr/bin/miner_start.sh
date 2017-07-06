@@ -1,6 +1,9 @@
 #!/bin/bash
 
 
+rmmod r8169
+modprobe r8168
+
 lsmod | grep nvidia > /dev/null
 
 if [ "$?" -eq "0" ]
