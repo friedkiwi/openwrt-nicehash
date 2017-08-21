@@ -4,6 +4,8 @@
 rmmod r8169
 modprobe r8168
 
+udhcpc
+
 lsmod | grep nvidia > /dev/null
 
 if [ "$?" -eq "0" ]
@@ -12,6 +14,9 @@ then
 else
 	echo "Loading nvidia kernel module..."
 	/usr/sbin/modprobe nvidia
+	/usr/sbin/modprobe nvidia-drm
+	/usr/sbin/modprobe nvidia-modeset
+	/usr/sbin/modprobe nvidia-uwm
 	if [ "$?" -eq "0" ]
 	then
 		echo "Module load success!"
@@ -38,6 +43,6 @@ do
 done
 
 
-/usr/bin/nheqminer  -a 8888 -u `/usr/bin/get_btc_address` -cd $gpus
+/usr/bin/nheqminer  -a 8888 -u `/usr/bin/get_btc_address` -cd $gpusi -l eu1-zcash.flypool.org:3333
 
 echo "Mining mining mining!"
